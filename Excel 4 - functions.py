@@ -32,7 +32,7 @@ else:
 
 # Picking up proper columns and raws for disease code and
 # disease title from determined worksheet - the goal is to get only data
-# that will be used in a project
+# that will be used in a project, keeping in mind possible changes in file or data structure 
 
 def pick_columns(from_raw, to_raw, from_column, to_column, active_sheet):
     disease = []
